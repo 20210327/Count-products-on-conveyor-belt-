@@ -1,2 +1,7 @@
 # Count-products-on-conveyor-belt-
-In this project, we use microcontroller AT89S52, IR Infrared Obstacle Avoidance Sensor Module using LM393 and other electronic components.
+In this project, we use microcontroller AT89S52, IR Infrared Obstacle Avoidance Sensor Module using LM393 and other electronic components. There are some features of this system:
+1. Counting up from a number to the number of products, we can set these 2 numbers.
+2. Like counting up. However, in this case, we count down.
+3. The system can save the numbers into EEPROM 24C04. Therefore, when the power is cut, all numbers and setting is saved. And when the power is restore, we can continue counting from the numbers in EEPROM.
+
+  When you run Proteus project, you can see 2 options in LCD screen are "COUNT UP" and "COUNT DOWN", you can see the third option "SAVED DATA" by Pressing "+" on the keypad. To return to 2 options above, press "-". To choose "COUNT UP", press 1. To choose "COUNT DOWN", press 2. "SAVED DATA" is also similar. Then, you will set the products number in "NUMBER", the count number in "COUNT" if you choose "COUNT UP" or "COUNT DOWN". If you set wrong number and want to delete it, you need to press "X". After you set the number, you need press "ON/C" on the keypad to start running the conveyor belt. Press BUTTON on PIR sensor to count, this is when a product is moving through the sensor. If you want to stop the conveyor belt, press BUTTON "STOP", and press "RUN" to continue running the belt. If you want to see how the system works when the power is cut, you need to stop the project. After that, run again the project and choose "SAVED DATA" to see what's happen.
